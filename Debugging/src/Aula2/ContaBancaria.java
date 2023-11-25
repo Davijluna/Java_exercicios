@@ -19,5 +19,10 @@ public class ContaBancaria {
 public class Banco {
   public static void main(string[] args) {
     ContaBancaria conta = new ContaBancaria();
+
+    conta.mostraMensagem();
+    conta.depositar(500);
+
+    double valorConvertido = conta.converteMoeda(30, 5);
   }
 }
