@@ -1,4 +1,4 @@
-public class SomaNumeros {
+class SomaNumeros {
   /**
    * Retorna a soma entre dois números.
    * @param numA um número inteiro.
