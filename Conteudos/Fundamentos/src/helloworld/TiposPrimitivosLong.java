@@ -1,6 +1,6 @@
 package helloworld;
 
-
+// Utilizando tipo long -> -9.223.372.036.854.775.808 até 9.223.372.036.854.775.807
 public class TiposPrimitivosLong {
     
     public static void main(String[] args) {
