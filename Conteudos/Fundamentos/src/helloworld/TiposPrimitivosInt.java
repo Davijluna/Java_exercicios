@@ -1,6 +1,6 @@
 package helloworld;
 
-
+// Utilizando variavel int -> -2.147.483.648 até 2.147.483.647.
 public class TiposPrimitivosInt {
     
     public static void main(String[] args) {
