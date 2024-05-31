@@ -8,7 +8,7 @@ public class Aula_04 {
         x = 150;
         
         int y = 4;
-        
+        // se dividir inteiro por inteiro = numero inteiro.
         double resultado = x / y;
         
         
