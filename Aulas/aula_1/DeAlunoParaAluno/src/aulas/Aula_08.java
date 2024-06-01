@@ -1,13 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package aulas;
+
+//import java.util.*; importa todas a classes dentro de um pacote
+
+
+import java.util.Scanner; // importa uma classe;
 
 /**
  *
- * @author davi
+ * @author davi aula 10
  */
 public class Aula_08 {
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+    }
     
 }
