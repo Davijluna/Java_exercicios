@@ -1,6 +1,24 @@
 package estruturaCondidionais;
 
 
+/*
+
+                    DUAS FORMAS DE INSTÂCIAR UM ARRAY.
+
+Primeira forma
+String[] arrayDeEstudantes = { "MARCOS", "ALINE", "LUCAS", "PATRICIA" };
+
+
+Segunda forma
+int[] arrayDeInteiros = new int[9];
+arrayDeInteiros[0] = 0;
+arrayDeInteiros[1] = 1;
+//...
+arrayDeInteiros[8] = 8;
+
+*/
+
+
 public class ListaEstudantes {
     
     public static void main(String[] args) {
