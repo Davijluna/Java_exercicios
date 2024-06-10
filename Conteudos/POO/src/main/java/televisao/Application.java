@@ -11,6 +11,10 @@ public class Application {
         
         Television television = new Television("Phillips","LCD", 32);
         
+        television.turnOn();
+        television.turnOff();
+        System.out.println(television.info());
+        
         System.out.println("Finalizando sistema ...");
     }
     
