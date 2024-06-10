@@ -10,6 +10,9 @@ public class Application {
         System.out.println("Iniciando o sistema ...");
         
         Television television = new Television("Phillips","LCD", 32);
+                
+        television.volume = 100;
+        television.volume = -1;
         
         television.turnOn();
         television.turnOff();

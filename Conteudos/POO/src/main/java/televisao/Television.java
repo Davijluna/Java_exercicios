@@ -6,15 +6,15 @@ package televisao;
  */
 public class Television {
     
-    int MAX_VOLUME = 30;
-    int volume = 0;
+    private int MAX_VOLUME = 30;
+    private int volume = 0;
     
-    public boolean isOn = false;
+    private boolean isOn = false;
     
 //  Definindo os todos os objetos.
-        String brand;
-        String model; 
-        int size;
+    private   String brand;
+    private String model; 
+    private int size;
 
 //        Construtor recebendo os três parâmetros.
     public Television(String brand, String model, int size) {
@@ -24,29 +24,29 @@ public class Television {
         this.size = size;
     }
     
-    void turnOn() {
+    public void turnOn() {
         System.out.println("Ligando Televisão...");
         this.isOn = true;
         
     }
     
-    void turnOff() {
+    public void turnOff() {
         System.out.println("Desligando Televisão...");
         this.isOn = false;
     }
     
-    String info() {
+    public String info() {
         return "Marca: %s, Modelo: %s, Tamanho: %d, Ligada: %b".formatted(
         brand, model, size, isOn);
     }
     
-    void increaseVolume() {
+    public void increaseVolume() {
         if (volume < MAX_VOLUME) {
             volume++;
         }
     }
     
-    void decreaseVolume() {
+    public void decreaseVolume() {
         if (volume > MAX_VOLUME) {  
             volume--;
         }
