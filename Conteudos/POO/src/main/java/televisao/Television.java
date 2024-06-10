@@ -9,7 +9,7 @@ public class Television {
     int MAX_VOLUME = 30;
     int volume = 0;
     
-    boolean isOn = false;
+    public boolean isOn = false;
     
 //  Definindo os todos os objetos.
         String brand;
@@ -24,29 +24,29 @@ public class Television {
         this.size = size;
     }
     
-    public void turnOn() {
+    void turnOn() {
         System.out.println("Ligando Televisão...");
         this.isOn = true;
         
     }
     
-    public void turnOff() {
+    void turnOff() {
         System.out.println("Desligando Televisão...");
         this.isOn = false;
     }
     
-    public String info() {
+    String info() {
         return "Marca: %s, Modelo: %s, Tamanho: %d, Ligada: %b".formatted(
         brand, model, size, isOn);
     }
     
-    public void increaseVolume() {
+    void increaseVolume() {
         if (volume < MAX_VOLUME) {
             volume++;
         }
     }
     
-    public void decreaseVolume() {
+    void decreaseVolume() {
         if (volume > MAX_VOLUME) {  
             volume--;
         }
