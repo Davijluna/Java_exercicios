@@ -13,6 +13,12 @@ public class Application {
                 
 //        television.volume = 100;
 //        television.volume = -1;
+
+        System.out.println("A televisão está ligada?");
+        System.out.println(television.isOn());
+        
+        System.out.println("O volume atual é:");
+        System.out.println(television.getVolume());
         
         television.turnOn();
         television.turnOff();

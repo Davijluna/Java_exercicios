@@ -51,4 +51,24 @@ public class Television {
             volume--;
         }
     }
+    
+    public int getVolume() {
+        return volume;
+    }
+    
+    public boolean isOn() {
+        return isOn;
+    }
+    
+    public String getBrand() {
+        return brand;
+    }
+    
+    public String getModel() {
+        return model;
+    }
+    
+    public int getSize() {
+        return size;
+    }
 }
