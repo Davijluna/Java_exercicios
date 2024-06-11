@@ -11,8 +11,8 @@ public class Application {
         
         Television television = new Television("Phillips","LCD", 32);
                 
-        television.volume = 100;
-        television.volume = -1;
+//        television.volume = 100;
+//        television.volume = -1;
         
         television.turnOn();
         television.turnOff();
