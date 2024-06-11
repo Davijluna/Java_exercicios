@@ -68,7 +68,12 @@ public class Television {
         return model;
     }
     
+    public void setModel(String model) {
+        this.model = model;
+    }
+    
     public int getSize() {
         return size;
     }
+    
 }
