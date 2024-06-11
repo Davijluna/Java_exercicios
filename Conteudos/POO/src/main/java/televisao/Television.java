@@ -6,15 +6,21 @@ package televisao;
  */
 public class Television {
     
-    private int MAX_VOLUME = 30;
+    private static int MAX_VOLUME = 30;
     private int volume = 0;
     
     private boolean isOn = false;
     
 //  Definindo os todos os objetos.
-    private   String brand;
+    private String brand;
     private String model; 
     private int size;
+    
+    private static double INCH_TO_CM = 2.54;
+
+    public static double convertToCentimeters(double inches) {
+        return inches * INCH_TO_CM;
+    }
 
 //        Construtor recebendo os três parâmetros.
     public Television(String brand, String model, int size) {

@@ -7,6 +7,10 @@ package televisao;
 public class Application {
     
     public static void main(String[] args) {
+        
+        double sizeCm = Television.convertToCentimeters(32);
+        System.out.println("O tamanho em centímetros é: " + sizeCm);
+        
         System.out.println("Iniciando o sistema ...");
         
         Television television = new Television("Phillips","LCD", 32);
