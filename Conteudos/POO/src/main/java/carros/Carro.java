@@ -1,9 +1,6 @@
 package carros;
 
-/**
- *
- * @author davi
- */
+
 public class Carro {
     
     private String marca;
@@ -19,11 +16,12 @@ public class Carro {
     }
     
     public void exibirInformacoes() {
-        System.out.printf("Marca: %s, Modelo: %s, Ano: %d%n",
-                marca, modelo, ano);
+        System.out.printf("Marca: %s, Modelo: %s, Ano: %d%n, "
+                + "contador: %d%n",
+                marca, modelo, ano, contador);
     }
     
-    public void main(String[] args) {
+    public static void main(String[] args) {
         Carro carro = new Carro("Hyundai", "HB20", 2022);
         carro.exibirInformacoes();
     }
