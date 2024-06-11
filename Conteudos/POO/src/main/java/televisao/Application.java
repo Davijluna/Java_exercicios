@@ -17,6 +17,8 @@ public class Application {
         System.out.println("A televisão está ligada?");
         System.out.println(television.isOn());
         
+        television.setModel("LCD-Ultra");
+        
         System.out.println("O volume atual é:");
         System.out.println(television.getVolume());
         
