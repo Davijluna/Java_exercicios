@@ -14,9 +14,19 @@ public class Main {
     Cleric cleric = new Cleric();
     cleric.move();
     cleric.attack();
+    cleric.heal();                       // Cura básica
+    cleric.heal("Poção de Vida");        // Cura com a Poção de Vida
+    cleric.heal("Feitiço de Luz", 7);
+
+    System.out.println(" ");
 
     moveAndAttack(warrior);
     moveAndAttack(cleric);
+
+    System.out.println(" ");
+
+    Barbarian barbarian = new Barbarian();
+    barbarian.move();
 
 
 
