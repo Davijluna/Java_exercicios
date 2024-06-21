@@ -15,6 +15,15 @@ public class Main {
     cleric.move();
     cleric.attack();
 
+    moveAndAttack(warrior);
+    moveAndAttack(cleric);
+
+
+
   }
 
+  public static void moveAndAttack(PlayableCharacter player) {
+    player.move();
+    player.attack();
+  }
 }
