@@ -6,13 +6,15 @@ public class Application {
     Laptop laptop = new Laptop("Samsung", 100, 14);
     Desktop desktop = new Desktop("Dell", 500);
 
-    checkDevice(laptop);
-    checkDevice(desktop);
+    plugDevice(laptop);
+    plugDevice(powerBank);
+
+//    checkDevice(desktop);
 //    laptop.bootUp();
   }
 
-  public static void checkDevice(ComputerDevice device) {
-    System.out.println("Verificando dispositivo de marca " + device.getBrand());
-    device.bootUp();
+  public static void plugDevice(ComputerDevice chargeable) {
+    System.out.println("Verificando dispositivo de marca " + chargeable.getBrand());
+    chargeable.bootUp();
   }
 }
