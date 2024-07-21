@@ -10,5 +10,4 @@ public class PowerBank implements Chargeable {
   public int getBatteryLevel() {
     return 65;
   }
-
 }
