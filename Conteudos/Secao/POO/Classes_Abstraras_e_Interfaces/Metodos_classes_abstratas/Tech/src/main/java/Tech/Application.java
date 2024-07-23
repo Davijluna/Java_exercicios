@@ -13,7 +13,7 @@ public class Application {
 //    laptop.bootUp();
   }
 
-  public static void plugDevice(ComputerDevice chargeable) {
+  public static void plugDevice(Chargeable chargeable) {
     System.out.println("A bateria atual é " + chargeable.getBatteryLevel());
     chargeable.charge();
   }
