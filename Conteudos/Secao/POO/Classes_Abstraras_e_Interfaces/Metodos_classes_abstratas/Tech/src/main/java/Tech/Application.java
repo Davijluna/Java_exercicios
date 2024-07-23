@@ -10,7 +10,8 @@ public class Application {
     plugDevice(laptop);
     plugDevice(powerBank);
 
-//    laptop.bootUp();
+//checkDevice(laptop)
+//checkDevice(desktop)
   }
 
   public static void plugDevice(Chargeable chargeable) {
