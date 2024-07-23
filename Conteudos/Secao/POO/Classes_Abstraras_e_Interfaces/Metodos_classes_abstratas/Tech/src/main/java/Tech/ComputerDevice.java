@@ -1,8 +1,10 @@
 package Tech;
 
 public abstract class ComputerDevice {
-  private String brand;
-  private double storageCapacity;
+
+  public static final double MAX_STORAGE_CAPACITY = 2048.0;
+  private final String brand;
+  private final double storageCapacity;
 
   public ComputerDevice(String brand, double storageCapacity) {
     this.brand = brand;
@@ -19,4 +21,8 @@ public abstract class ComputerDevice {
 
   // Método abstrato, sem implementação
   public abstract void bootUp();
+
+  public final void shutDown() {
+    System.out.println("Desligando o dispositivo ...");
+  }
 }
