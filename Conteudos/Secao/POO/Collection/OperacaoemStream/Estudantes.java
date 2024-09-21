@@ -1,8 +1,11 @@
 package Collection.OperacaoemStream;
 
-import java.util.
-public class SistemaEscolar {
-  public class Estudante {
+import java.util.Set;
+import java.util.Collection;
+import java.util.List;
+import java.util.Comparator;
+
+  class Estudante {
 
     private String matricula;
 
@@ -13,15 +16,29 @@ public class SistemaEscolar {
     public Estudante() {
     }
 
+
+
     public Estudante(String matricula, String nome, String curso) {
       this.matricula = matricula;
       this.nome = nome;
       this.curso = curso;
     }
+
+    public String getNome() {
+      return nome;
+    }
+
+    public String getCurso() {
+      return curso;
+    }
+
+    public String getMatricula() {
+      return matricula;
+    }
     // GETs e SETs
   }
 
-  public class CodeExamples {
+  public class Estudantes {
 
     public static Collection<Estudante> obterEntrada() {
       return Set.of(
@@ -44,4 +61,4 @@ public class SistemaEscolar {
     }
 
   }
-}
+
