@@ -16,6 +16,8 @@ public class Praticando {
     double media;
 
     List<Integer> quadradosPares = new ArrayList<>();
+
+//    percorro a lista de números e faço a soma ao próximo.
     for (Integer numero : numeros) {
       soma += numero;
     }
