@@ -24,14 +24,14 @@ public class Exercicio {
 //    System.out.println(numeros);
 
 //    Filtrando os nomes.
-    List<String> caixaAlta = new ArrayList<>();
+    List<String> caixaAlta = nomes.stream().map().to
 
     int total = numeros.stream().mapToInt(Integer::intValue).sum();
 
-    for (String nome : nomes) {
-       caixaAlta.add(nome.toUpperCase());
-    }
-    System.out.println(caixaAlta);
+//    for (String nome : nomes) {
+//       caixaAlta.add(nome.tdoUpperCase());
+//    }
+    System.out.println(caixaAlta);ds
 //    filtrando os números.
     List<Integer> pares = new ArrayList<>();
     for (Integer numero : numeros) {
