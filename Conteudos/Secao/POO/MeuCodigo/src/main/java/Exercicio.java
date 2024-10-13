@@ -16,32 +16,15 @@ public class Exercicio {
     numeros.add(32);
 
 
-    List<String> nomes = new ArrayList<>();
-    nomes.add("davi");
-    nomes.add("natalha");
-    nomes.add("mauro");
+    List<String> nomes = List.of("davi", "mara");
 
-//    System.out.println(numeros);
-
-//    Filtrando os nomes.
-    List<String> caixaAlta = nomes.stream().map().to
-
+//   Total de números
     int total = numeros.stream().mapToInt(Integer::intValue).sum();
 
-//    for (String nome : nomes) {
-//       caixaAlta.add(nome.tdoUpperCase());
-//    }
-    System.out.println(caixaAlta);ds
-//    filtrando os números.
-    List<Integer> pares = new ArrayList<>();
-    for (Integer numero : numeros) {
-      if (numero % 2 == 0) {
-        pares.add(numero);
-      }
-    }
 
-    System.out.println(pares);
+
     System.out.println(total);
+    System.out.println(nomes.);
   }
 
 }
